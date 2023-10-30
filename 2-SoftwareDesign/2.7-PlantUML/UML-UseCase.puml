@@ -1,0 +1,14 @@
+@startuml
+title Usecase Leventiy
+left to right direction
+actor :User:
+
+rectangle Software {
+
+    usecase (User authorization)
+    usecase (Get an air improvement plan)
+
+   :User: -- (User authorization)
+   (User authorization) .> (Get an air improvement plan) : include
+}
+@enduml

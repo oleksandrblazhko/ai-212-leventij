@@ -1,0 +1,20 @@
+@startuml
+title UML-Activity
+
+start
+
+:The program registers the user;
+
+if (Are the data entered correctly?) then (yes)
+  :Create a user account;
+  stop
+else (no)
+  :Input error;
+  if (Would you like to try again?) then (yes)
+    :The program authorizes the user;
+  else (no)
+    stop
+  endif
+endif
+
+@enduml

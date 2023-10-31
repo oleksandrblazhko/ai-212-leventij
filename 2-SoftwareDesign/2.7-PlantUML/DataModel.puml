@@ -1,0 +1,47 @@
+@startuml
+
+title DataModel
+left to right direction
+hide circle
+
+entity "User" as a01 {
+    (PK) userId
+    --
+    full_name
+    address
+    account_number
+    --
+    (FK) appId
+    (FK) meteosvcId
+}
+
+entity "Online_application" as a02 {
+    (PK) appId
+    --
+    user_data
+}
+
+entity "Meteo_service" as a03 {
+    (PK) meteosvcId
+    --
+    meteosvc_name
+    cost
+    date_time
+    --
+    (FK) payId
+
+}
+
+entity "Payment" as a04 {
+    (PK) payId
+    --
+    payment_method
+}
+
+a02 --{ a01
+
+a03 --{ a01
+
+a04 -- a03
+
+@enduml

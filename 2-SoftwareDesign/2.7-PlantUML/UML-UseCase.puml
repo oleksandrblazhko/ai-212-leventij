@@ -1,0 +1,20 @@
+@startuml
+
+title Usecase 
+
+left to right direction
+
+actor User
+
+rectangle Software {
+
+    usecase (create online-request)
+    usecase (authorise user)
+
+   (create online-request) .> (authorise user) : include
+   
+   User -- (create online-request)
+   User -- (authorise user)
+}
+
+@enduml

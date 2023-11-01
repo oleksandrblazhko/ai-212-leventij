@@ -1,0 +1,27 @@
+@startuml
+hide circle
+title UML-ConceptClasses
+left to right direction
+
+Class User{
+    Fullname
+    Address
+    Account_number
+}
+
+Class Meteo_service{
+    Name
+    Cost
+    Date_time
+}
+
+Class Payment{
+    Payment_method
+}
+
+
+User"1" --> "*"Meteo_service: ViewingTheService
+
+Meteo_service"1" --> "1"Payment: StoresPaymentData
+
+@enduml

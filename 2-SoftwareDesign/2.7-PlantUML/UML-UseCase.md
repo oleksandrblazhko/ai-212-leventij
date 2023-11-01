@@ -1,1 +1,1 @@
-![UML-UseCase](https://www.plantuml.com/plantuml/png/TOungiCm44JxFSMKtuN_0NxnyHr23Y3aiIsG9R9QaIBaxc4X489niStmPjvEpO9QtxE89Sl4jJ66HeXaBWQhqBHkXZafewLQH4AqgWwgY8UXh9curCNkGOc7203qzz1FL0OZQicfS5JUEfiDtqpejbLDZHxfu0jdHVp-7tZy8PMO-qml-lbt6CTp-mSvo9yY4ylSz_m2)
+![UML-UseCase](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai-212-leventij/Laboratory_Work_7/2-SoftwareDesign/2.7-PlantUML/UML-UseCase.puml)

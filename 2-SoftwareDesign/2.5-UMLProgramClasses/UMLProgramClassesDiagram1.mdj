@@ -63,7 +63,7 @@
 											"font": "Arial;13;1",
 											"left": 245,
 											"top": 231,
-											"width": 207,
+											"width": 304.484375,
 											"height": 13,
 											"text": "Користувач"
 										},
@@ -101,7 +101,7 @@
 									"font": "Arial;13;0",
 									"left": 240,
 									"top": 224,
-									"width": 217,
+									"width": 314.484375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGLU6Gk0FVFAmw="
@@ -139,7 +139,7 @@
 											"font": "Arial;13;0",
 											"left": 245,
 											"top": 254,
-											"width": 207,
+											"width": 304.484375,
 											"height": 13,
 											"text": "-ПІБ: String",
 											"horizontalAlignment": 0
@@ -157,7 +157,7 @@
 											"font": "Arial;13;0",
 											"left": 245,
 											"top": 269,
-											"width": 207,
+											"width": 304.484375,
 											"height": 13,
 											"text": "-Адреса: String",
 											"horizontalAlignment": 0
@@ -175,9 +175,45 @@
 											"font": "Arial;13;0",
 											"left": 245,
 											"top": 284,
-											"width": 207,
+											"width": 304.484375,
 											"height": 13,
 											"text": "-НомерОбліковогоЗапису: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGLvfaqT1pQoVc=",
+											"_parent": {
+												"$ref": "AAAAAAGLU6Gk0FVJ2JA="
+											},
+											"model": {
+												"$ref": "AAAAAAGLvfaqQlpNxBQ="
+											},
+											"fillColor": "#efbed6",
+											"font": "Arial;13;0",
+											"left": 245,
+											"top": 299,
+											"width": 304.484375,
+											"height": 13,
+											"text": "-OnlineЗаявка: OnlineЗаявка",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGLvfc5Elwj49Y=",
+											"_parent": {
+												"$ref": "AAAAAAGLU6Gk0FVJ2JA="
+											},
+											"model": {
+												"$ref": "AAAAAAGLvfc5DlwgfBk="
+											},
+											"fillColor": "#efbed6",
+											"font": "Arial;13;0",
+											"left": 245,
+											"top": 314,
+											"width": 304.484375,
+											"height": 13,
+											"text": "-МетеорологічнаПослуга: МетеорологічнаПослуга",
 											"horizontalAlignment": 0
 										}
 									],
@@ -185,8 +221,8 @@
 									"font": "Arial;13;0",
 									"left": 240,
 									"top": 249,
-									"width": 217,
-									"height": 53
+									"width": 314.484375,
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -210,8 +246,8 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 245,
-											"top": 307,
-											"width": 207,
+											"top": 337,
+											"width": 304.484375,
 											"height": 13,
 											"text": "+реєстрація()",
 											"horizontalAlignment": 0
@@ -228,8 +264,8 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 245,
-											"top": 322,
-											"width": 207,
+											"top": 352,
+											"width": 304.484375,
 											"height": 13,
 											"text": "+авторизація()",
 											"horizontalAlignment": 0
@@ -246,8 +282,8 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 245,
-											"top": 337,
-											"width": 207,
+											"top": 367,
+											"width": 304.484375,
 											"height": 13,
 											"text": "+створитиЗаявку()",
 											"horizontalAlignment": 0
@@ -256,8 +292,8 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 240,
-									"top": 302,
-									"width": 217,
+									"top": 332,
+									"width": 314.484375,
 									"height": 53
 								},
 								{
@@ -300,8 +336,8 @@
 							"containerChangeable": true,
 							"left": 240,
 							"top": 224,
-							"width": 217,
-							"height": 131,
+							"width": 314.484375,
+							"height": 161,
 							"nameCompartment": {
 								"$ref": "AAAAAAGLU6Gk0FVEXyE="
 							},
@@ -348,7 +384,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": -96,
-											"top": -16,
+											"top": 80,
 											"height": 13
 										},
 										{
@@ -360,7 +396,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;1",
 											"left": 69,
-											"top": 423,
+											"top": 471,
 											"width": 207,
 											"height": 13,
 											"text": "МетеорологічнаПослуга"
@@ -375,7 +411,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": -96,
-											"top": -16,
+											"top": 80,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -390,7 +426,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": -96,
-											"top": -16,
+											"top": 80,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -398,7 +434,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 64,
-									"top": 416,
+									"top": 464,
 									"width": 217,
 									"height": 25,
 									"stereotypeLabel": {
@@ -436,7 +472,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 69,
-											"top": 446,
+											"top": 494,
 											"width": 207,
 											"height": 13,
 											"text": "-Назва: String",
@@ -454,7 +490,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 69,
-											"top": 461,
+											"top": 509,
 											"width": 207,
 											"height": 13,
 											"text": "-Вартість: int",
@@ -472,19 +508,37 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 69,
-											"top": 476,
+											"top": 524,
 											"width": 207,
 											"height": 13,
 											"text": "-Дата та час: Date",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGLvffqAGrkP18=",
+											"_parent": {
+												"$ref": "AAAAAAGLU6LPXlXx8Mc="
+											},
+											"model": {
+												"$ref": "AAAAAAGLvffp9WrhQSA="
+											},
+											"fillColor": "#efbed6",
+											"font": "Arial;13;0",
+											"left": 69,
+											"top": 539,
+											"width": 207,
+											"height": 13,
+											"text": "-Оплата: Оплата",
 											"horizontalAlignment": 0
 										}
 									],
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 64,
-									"top": 441,
+									"top": 489,
 									"width": 217,
-									"height": 53
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -508,7 +562,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 69,
-											"top": 499,
+											"top": 562,
 											"width": 207,
 											"height": 13,
 											"text": "+отриматиДеталіПослуги()",
@@ -518,7 +572,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 64,
-									"top": 494,
+									"top": 557,
 									"width": 217,
 									"height": 23
 								},
@@ -535,7 +589,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": -48,
-									"top": -8,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								},
@@ -552,7 +606,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": -48,
-									"top": -8,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								}
@@ -561,7 +615,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 64,
-							"top": 416,
+							"top": 464,
 							"width": 217,
 							"height": 129,
 							"nameCompartment": {
@@ -610,7 +664,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": -96,
-											"top": -32,
+											"top": 48,
 											"height": 13
 										},
 										{
@@ -622,7 +676,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;1",
 											"left": 437,
-											"top": 447,
+											"top": 487,
 											"width": 164.353515625,
 											"height": 13,
 											"text": "Оплата"
@@ -637,7 +691,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": -96,
-											"top": -32,
+											"top": 48,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -652,7 +706,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": -96,
-											"top": -32,
+											"top": 48,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
@@ -660,7 +714,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 432,
-									"top": 440,
+									"top": 480,
 									"width": 174.353515625,
 									"height": 25,
 									"stereotypeLabel": {
@@ -698,7 +752,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 437,
-											"top": 470,
+											"top": 510,
 											"width": 164.353515625,
 											"height": 13,
 											"text": "-МетодОплати: String",
@@ -708,7 +762,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 432,
-									"top": 465,
+									"top": 505,
 									"width": 174.353515625,
 									"height": 23
 								},
@@ -734,7 +788,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 437,
-											"top": 493,
+											"top": 533,
 											"width": 164.353515625,
 											"height": 13,
 											"text": "+здійснитиОплату()",
@@ -752,7 +806,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 437,
-											"top": 508,
+											"top": 548,
 											"width": 164.353515625,
 											"height": 13,
 											"text": "+перевіркаДанихКарти()",
@@ -770,7 +824,7 @@
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
 											"left": 437,
-											"top": 523,
+											"top": 563,
 											"width": 164.353515625,
 											"height": 13,
 											"text": "+обробкаПомилокОплати()",
@@ -780,7 +834,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": 432,
-									"top": 488,
+									"top": 528,
 									"width": 174.353515625,
 									"height": 53
 								},
@@ -797,7 +851,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": -48,
-									"top": -16,
+									"top": 24,
 									"width": 10,
 									"height": 10
 								},
@@ -814,7 +868,7 @@
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
 									"left": -48,
-									"top": -16,
+									"top": 24,
 									"width": 10,
 									"height": 10
 								}
@@ -823,7 +877,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 432,
-							"top": 440,
+							"top": 480,
 							"width": 174.353515625,
 							"height": 101,
 							"nameCompartment": {
@@ -871,8 +925,8 @@
 											"visible": false,
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": -80,
+											"left": 128,
+											"top": -128,
 											"height": 13
 										},
 										{
@@ -883,8 +937,8 @@
 											},
 											"fillColor": "#efbed6",
 											"font": "Arial;13;1",
-											"left": 493,
-											"top": 119,
+											"left": 581,
+											"top": 95,
 											"width": 130.06982421875,
 											"height": 13,
 											"text": "OnlineЗаявка"
@@ -898,8 +952,8 @@
 											"visible": false,
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": -80,
+											"left": 128,
+											"top": -128,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -913,16 +967,16 @@
 											"visible": false,
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": -48,
-											"top": -80,
+											"left": 128,
+											"top": -128,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
-									"left": 488,
-									"top": 112,
+									"left": 576,
+									"top": 88,
 									"width": 140.06982421875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -959,8 +1013,8 @@
 											},
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": 493,
-											"top": 142,
+											"left": 581,
+											"top": 118,
 											"width": 130.06982421875,
 											"height": 13,
 											"text": "-ДаніКористувача",
@@ -969,8 +1023,8 @@
 									],
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
-									"left": 488,
-									"top": 137,
+									"left": 576,
+									"top": 113,
 									"width": 140.06982421875,
 									"height": 23
 								},
@@ -995,8 +1049,8 @@
 											},
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": 493,
-											"top": 165,
+											"left": 581,
+											"top": 141,
 											"width": 130.06982421875,
 											"height": 13,
 											"text": "+переглянутиДані()",
@@ -1014,8 +1068,8 @@
 											"visible": false,
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": 493,
-											"top": 180,
+											"left": 669,
+											"top": 132,
 											"width": 130.06982421875,
 											"height": 13,
 											"text": "+створитиЗаявку()",
@@ -1032,8 +1086,8 @@
 											},
 											"fillColor": "#efbed6",
 											"font": "Arial;13;0",
-											"left": 493,
-											"top": 180,
+											"left": 581,
+											"top": 156,
 											"width": 130.06982421875,
 											"height": 13,
 											"text": "+змінитиЗаявку()",
@@ -1042,8 +1096,8 @@
 									],
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
-									"left": 488,
-									"top": 160,
+									"left": 576,
+									"top": 136,
 									"width": 140.06982421875,
 									"height": 38
 								},
@@ -1059,8 +1113,8 @@
 									"visible": false,
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
-									"left": -24,
-									"top": -40,
+									"left": 64,
+									"top": -64,
 									"width": 10,
 									"height": 10
 								},
@@ -1076,8 +1130,8 @@
 									"visible": false,
 									"fillColor": "#efbed6",
 									"font": "Arial;13;0",
-									"left": -24,
-									"top": -40,
+									"left": 64,
+									"top": -64,
 									"width": 10,
 									"height": 10
 								}
@@ -1085,8 +1139,8 @@
 							"fillColor": "#efbed6",
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 488,
-							"top": 112,
+							"left": 576,
+							"top": 88,
 							"width": 140.06982421875,
 							"height": 101,
 							"nameCompartment": {
@@ -1126,8 +1180,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 248,
-									"top": 368,
+									"left": 265,
+									"top": 407,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1147,8 +1201,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 237,
-									"top": 358,
+									"left": 254,
+									"top": 396,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1168,8 +1222,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 243,
-									"top": 389,
+									"left": 260,
+									"top": 428,
 									"width": 53.69482421875,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1190,8 +1244,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 238,
-									"top": 379,
+									"left": 244,
+									"top": 428,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1211,8 +1265,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 230,
-									"top": 369,
+									"left": 237,
+									"top": 417,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1232,8 +1286,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 255,
-									"top": 401,
+									"left": 261,
+									"top": 450,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -1253,8 +1307,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 258,
-									"top": 358,
+									"left": 286,
+									"top": 386,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1273,8 +1327,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 247,
-									"top": 350,
+									"left": 275,
+									"top": 378,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1293,8 +1347,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 281,
-									"top": 373,
+									"left": 308,
+									"top": 403,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -1339,7 +1393,7 @@
 								"$ref": "AAAAAAGLU6LPXlXr8y4="
 							},
 							"lineStyle": 1,
-							"points": "232:415;287:355",
+							"points": "237:463;315:385",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLU6ktP2PZDBE="
@@ -1398,7 +1452,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 355,
-									"top": 493,
+									"top": 538,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1419,7 +1473,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 355,
-									"top": 508,
+									"top": 553,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1440,7 +1494,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 356,
-									"top": 464,
+									"top": 508,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1460,8 +1514,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 404,
-									"top": 495,
+									"left": 405,
+									"top": 537,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1481,8 +1535,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 401,
-									"top": 508,
+									"left": 402,
+									"top": 551,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1503,7 +1557,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 409,
-									"top": 467,
+									"top": 510,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -1524,7 +1578,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 306,
-									"top": 492,
+									"top": 537,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1543,8 +1597,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 308,
-									"top": 506,
+									"left": 309,
+									"top": 551,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1564,7 +1618,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 302,
-									"top": 465,
+									"top": 510,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -1609,7 +1663,7 @@
 								"$ref": "AAAAAAGLU6SuzlYyLy4="
 							},
 							"lineStyle": 1,
-							"points": "431:487;281:483",
+							"points": "431:529;281:529",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLU6mBNmTlaoA="
@@ -1667,8 +1721,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 479,
-									"top": 220,
+									"left": 554,
+									"top": 210,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1688,8 +1742,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 487,
-									"top": 233,
+									"left": 562,
+									"top": 222,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1709,8 +1763,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 464,
-									"top": 195,
+									"left": 537,
+									"top": 185,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1730,8 +1784,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 472,
-									"top": 225,
+									"left": 561,
+									"top": 205,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1751,8 +1805,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 477,
-									"top": 237,
+									"left": 567,
+									"top": 218,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1772,8 +1826,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 462,
-									"top": 199,
+									"left": 550,
+									"top": 180,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -1793,8 +1847,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 486,
-									"top": 216,
+									"left": 547,
+									"top": 215,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1813,8 +1867,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 495,
-									"top": 226,
+									"left": 557,
+									"top": 224,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1833,8 +1887,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 469,
-									"top": 195,
+									"left": 529,
+									"top": 194,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -1879,7 +1933,7 @@
 								"$ref": "AAAAAAGLU6dOblZmuic="
 							},
 							"lineStyle": 1,
-							"points": "487:205;457:223",
+							"points": "575:185;518:223",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGLU6ma5mjNxak="
@@ -1924,7 +1978,7 @@
 							},
 							"font": "Arial;13;0",
 							"left": 216,
-							"top": 392,
+							"top": 440,
 							"width": 60,
 							"height": 25,
 							"text": "*"
@@ -1936,8 +1990,8 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"left": 240,
-							"top": 360,
+							"left": 256,
+							"top": 392,
 							"width": 60,
 							"height": 25,
 							"text": "1"
@@ -1949,8 +2003,8 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"left": 472,
-							"top": 176,
+							"left": 552,
+							"top": 168,
 							"width": 16.5,
 							"height": 25,
 							"text": "*"
@@ -1988,7 +2042,7 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"left": 432,
+							"left": 504,
 							"top": 200,
 							"width": 17.22998046875,
 							"height": 25,
@@ -2063,6 +2117,30 @@
 							"name": "НомерОбліковогоЗапису",
 							"visibility": "private",
 							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGLvfaqQlpNxBQ=",
+							"_parent": {
+								"$ref": "AAAAAAGLU56AdVTdpZk="
+							},
+							"name": "OnlineЗаявка",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGLU6dObVZkOZ0="
+							}
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGLvfc5DlwgfBk=",
+							"_parent": {
+								"$ref": "AAAAAAGLU56AdVTdpZk="
+							},
+							"name": "МетеорологічнаПослуга",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGLU6LPXlXpNr0="
+							}
 						}
 					],
 					"operations": [
@@ -2215,6 +2293,18 @@
 							"name": "Дата та час",
 							"visibility": "private",
 							"type": "Date"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGLvffp9WrhQSA=",
+							"_parent": {
+								"$ref": "AAAAAAGLU6LPXlXpNr0="
+							},
+							"name": "Оплата",
+							"visibility": "private",
+							"type": {
+								"$ref": "AAAAAAGLU6SuzlYwV5A="
+							}
 						}
 					],
 					"operations": [
